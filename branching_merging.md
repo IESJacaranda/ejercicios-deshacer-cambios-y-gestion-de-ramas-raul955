@@ -22,21 +22,53 @@ Los siguientes ejercicios los debes realizar en tu máquina real, no es necesari
 
 
 estudiante@raul:~/branch_time$ git checkout master
+
+
 checkout: command not found
+
+
 estudiante@raul:~/branch_time$ nano problema.txt
+
+
 estudiante@raul:~/branch_time$ git checkout conflict
+
+
 Switched to branch 'conflict'
+
+
 estudiante@raul:~/branch_time$ nano problema.txt
+
+
 estudiante@raul:~/branch_time$ git add .
+
+
 estudiante@raul:~/branch_time$ git commit -m "conflicto"
+
+
 [conflict 6fb9ad0] conflicto
+
+
  1 file changed, 2 insertions(+)
+ 
+ 
  create mode 100644 problema.txt
+ 
+ 
 estudiante@raul:~/branch_time$ git checkout --ours problema.txt
+
+
 estudiante@raul:~/branch_time$ git add .
+
+
 estudiante@raul:~/branch_time$ git commit -m "problemo resuelto"
+
+
 On branch conflict
+
+
 nothing to commit, working tree clean
+
+
 estudiante@raul:~/branch_time$ 
 
 
